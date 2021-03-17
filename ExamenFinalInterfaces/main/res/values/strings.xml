@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExamenInterfacesFinal3</string>
+    <string name="title_home">Insertar</string>
+    <string name="title_dashboard">Mostrar</string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_telefono">Telefono</string>
+    <string name="tv_nombre">Nombre</string>
+    <string name="tv_telefono">Telefono</string>
+    <string name="btn_grabar">Grabar</string>
+
+</resources>

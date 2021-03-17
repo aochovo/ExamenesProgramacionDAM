@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamenInterfacesFinal3</string>
+    <string name="title_home">Insert</string>
+    <string name="title_dashboard">Show</string>
+    <string name="et_nombre">Name</string>
+    <string name="et_telefono">Phone</string>
+    <string name="tv_nombre">Name</string>
+    <string name="tv_telefono">Phone</string>
+    <string name="btn_grabar">Sign</string>
+</resources>

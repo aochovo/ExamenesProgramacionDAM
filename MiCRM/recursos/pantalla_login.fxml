@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="401.0" prefWidth="594.0">
+         <children>
+            <TextField id="txt_usuario" alignment="TOP_CENTER" cache="true" layoutX="423.0" layoutY="150.0" prefHeight="28.0" prefWidth="150.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <Button id="btn_comprobar" layoutX="358.0" layoutY="327.0" mnemonicParsing="false" text="COMPROBAR" textAlignment="CENTER" textFill="#de2f23">
+               <font>
+                  <Font name="Dubai Medium" size="18.0" />
+               </font>
+               <effect>
+                  <Lighting diffuseConstant="1.5" specularConstant="0.5">
+                     <bumpInput>
+                        <Blend />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect></Button>
+            <Label id="lbl_error" layoutX="282.0" layoutY="282.0" prefHeight="20.0" prefWidth="281.0" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <AnchorPane prefHeight="400.0" prefWidth="228.0" style="-fx-background-color: #de2f23;">
+               <children>
+                  <ImageView fitHeight="217.0" fitWidth="262.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imagen_erp.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label graphicTextGap="20.0" layoutX="291.0" layoutY="7.0" prefHeight="64.0" prefWidth="262.0" text="INICIAR SESIÓN" textAlignment="CENTER" textFill="#de2f23" underline="true">
+               <font>
+                  <Font name="Dubai Medium" size="36.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </Label>
+            <PasswordField id="txt_pwd" alignment="TOP_CENTER" cache="true" layoutX="423.0" layoutY="234.0" prefHeight="28.0" prefWidth="150.0" />
+            <Label layoutX="258.0" layoutY="151.0" prefHeight="28.0" prefWidth="129.0" text="NOMBRE USUARIO">
+               <font>
+                  <Font name="Dubai Medium" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="306.0" layoutY="234.0" prefHeight="28.0" prefWidth="81.0" text="PASSWORD">
+               <font>
+                  <Font name="Dubai Medium" size="15.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="221.0" layoutY="54.0" prefHeight="5.0" prefWidth="378.0" style="-fx-background-color: #de2f23;" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
